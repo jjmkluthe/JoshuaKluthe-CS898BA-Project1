@@ -4,7 +4,7 @@ import scipy as sy
 
 import sys
 
-from utils import *
+import utils
 
 
 def main():
@@ -13,7 +13,7 @@ def main():
 
     print("Hello from assignment-1!")
 
-    pause(automated)
+    utils.pause(automated)
 
 
 if __name__ == "__main__":
